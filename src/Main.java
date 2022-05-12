@@ -11,7 +11,6 @@ public class Main {
         FileReader fileReader = new FileReader("contacts.csv");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         List<String> lines = new ArrayList<String>();
-        ArrayList<String> vcards = new ArrayList<>();
         String line = null;
         while ((line = bufferedReader.readLine()) != null) {
             lines.add(line);
